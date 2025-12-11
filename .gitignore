@@ -1,0 +1,27 @@
+# Virtual envs
+venv/
+venv_old/
+.venv/
+
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Jupyter junk
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Data - keep structure, not big files
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.parquet
+
+# Logs
+logs/
+*.log

@@ -1,0 +1,12 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+imbalanced-learn
+torch
+torchvision
+tqdm
+d3rlpy
+pyyaml
