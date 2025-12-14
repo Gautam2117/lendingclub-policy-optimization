@@ -1,4 +1,4 @@
-# 💰 Policy Optimization for Financial Decision-Making
+# Policy Optimization for Financial Decision-Making
 ### Bridging risk prediction and profitability with Deep Learning and Offline RL
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![PyTorch](https://img.shields.io/badge/PyTorch-MLP-red) ![d3rlpy](https://img.shields.io/badge/d3rlpy-Offline%20RL-green) ![Status](https://img.shields.io/badge/Status-Complete-success)
@@ -7,7 +7,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 The project uses the public LendingClub loan book (about 1.37M accepted loans) and compares two approaches to loan approval:
 
@@ -22,7 +22,7 @@ The goal is not only to classify loans as good or bad, but to answer a more usef
 
 ---
 
-## 🚀 Key Results
+## Key Results
 
 All numbers are computed on a held out test set of accepted loans.
 
@@ -38,11 +38,11 @@ So the agent is not just copying historical behavior, it has found a region of t
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 The repository follows the same order as the analysis.
 
-### `01_eda_preprocessing.ipynb` 📊
+### `01_eda_preprocessing.ipynb`
 **Goal:** Turn the raw CSV into a clean modeling dataset.
 
 Main steps:
@@ -53,7 +53,7 @@ Main steps:
 - Handle missing values and define categorical and numeric feature lists.
 - Save the cleaned dataframe and a fitted preprocessing pipeline.
 
-### `02_supervised_mlp.ipynb` 🧠
+### `02_supervised_mlp.ipynb`
 **Goal:** Train the baseline deep learning classifier.
 
 - One hot encode categorical variables and standardize numeric ones.
@@ -65,7 +65,7 @@ Key metrics on the test set:
 - **F1 (at tuned threshold):** about 0.47  
 - Accuracy is around 0.79, but the F1 and confusion matrix show that the model recovers a meaningful portion of defaults while keeping false alarms under control.
 
-### `03_offline_rl.ipynb` 🤖
+### `03_offline_rl.ipynb`
 **Goal:** Learn an approval policy with offline RL.
 
 Setup:
@@ -89,7 +89,7 @@ Outcome:
 
 ---
 
-## 💻 How to Run
+## How to Run
 
 1. **Clone the repository**
    ```bash
@@ -116,7 +116,7 @@ Outcome:
 
 ---
 
-## 📦 Main Dependencies
+## Main Dependencies
 
 - Python 3.8 or later  
 - torch  
@@ -126,7 +126,7 @@ Outcome:
 
 ---
 
-## 🔮 Possible Next Steps
+## Possible Next Steps
 
 - Add data from rejected loan applications to reduce selection bias.
 - Model time explicitly by discounting cash flows rather than using simple interest totals.
