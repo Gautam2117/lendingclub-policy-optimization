@@ -1,7 +1,7 @@
 # Policy Optimization for Financial Decision-Making
 ### Bridging risk prediction and profitability with Deep Learning and Offline RL
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![PyTorch](https://img.shields.io/badge/PyTorch-MLP-red) ![d3rlpy](https://img.shields.io/badge/d3rlpy-Offline%20RL-green) ![Status](https://img.shields.io/badge/Status-Complete-success)
+![Python] ![PyTorch] ![d3rlpy] ![Status]
 
 > Key idea: Most credit models predict default probability. Here I focus on expected profit. The offline RL agent learns to reject a specific high risk segment of loans that human underwriters historically approved, with a default rate of 47.9 percent.
 
